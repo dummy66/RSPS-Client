@@ -2475,7 +2475,7 @@ public static void main(String args[])
 
 try
 {
-System.out.println("Starting up Yourservernamehere");
+System.out.println("Starting up CANscape");
 if(args.length > 1){
 return;
 }
@@ -3323,7 +3323,7 @@ aClass15_1109.method237(0);
 char c = '\u0168';
 char c1 = '\310';
 byte byte1 = 20;
-aClass30_Sub2_Sub1_Sub4_1272.method381(0xFFFFFF, "yourservernamehere - Loading...", 23693, c1 / 2 - 26 - byte1, c / 2);
+aClass30_Sub2_Sub1_Sub4_1272.method381(0xFFFFFF, "CANscape is loading...", 23693, c1 / 2 - 26 - byte1, c / 2);
 int j = c1 / 2 - 18 - byte1;
 // Colours
 Class30_Sub2_Sub1.method337(c / 2 - 151, 302, 32, 0x000000, j + 1, true); // Loadbar Background
@@ -7449,7 +7449,7 @@ aBoolean831 = false;
 g.setFont(new Font("Helvetica", 1, 16));
 g.setColor(Color.yellow);
 int k = 35;
-g.drawString("Sorry, an error has occured whilst loading yourservename.", 30, k);
+g.drawString("Sorry, an error has occurred whilst loading CANscape.", 30, k);
 k += 50;
 g.setColor(Color.white);
 g.drawString("To fix this try the following (in order):", 30, k);
@@ -8879,7 +8879,7 @@ if(nearby) //by pk3r
 int pplnearby = anInt891; // players nearby
 int npcsnearby = anInt836; // monsters nearby
 // aClass30_Sub2_Sub1_Sub4_1271.method385(0, ""+ClientCP.Name+"", 297, 822, 4);
-aClass30_Sub2_Sub1_Sub4_1271.method385(0xFFFFFF, "Wilddreams", 313, 822, 4);
+aClass30_Sub2_Sub1_Sub4_1271.method385(0xFFFFFF, "CANscape", 313, 822, 4);
 // aClass30_Sub2_Sub1_Sub4_1271.method385(0, "  Evolve", 330, 822, 467); // FTW
 // aClass30_Sub2_Sub1_Sub4_1271.method385(0, "Players: "+pplnearby+"", 329, 822, 466); // FTW
 }
@@ -9702,7 +9702,7 @@ if(super.anInt20 < 4 + i1)
 {
 if(anInt863 >= 1)
 {
-aStringArray1199[anInt1133] = "Wilddreams @wred@" + s;
+aStringArray1199[anInt1133] = "CANscape @wred@" + s;
 anIntArray1093[anInt1133] = 2606;
 anInt1133++;
 }
@@ -9985,7 +9985,7 @@ if(anInt833 == 0) {
 int i = c1 / 2 + 80;
 aClass30_Sub2_Sub1_Sub4_1270.method382(0x75a9a9, c / 2, anInt939, aClass42_Sub1_1068.aString1333, i, true);
 i = c1 / 2 - 20;
-aClass30_Sub2_Sub1_Sub4_1272.method382(0xffffff, c / 2, anInt939, "Wilddreams", i, true);
+aClass30_Sub2_Sub1_Sub4_1272.method382(0xffffff, c / 2, anInt939, "CANscape", i, true);
 i += 30;
 int l = c / 2 - 80;
 int k1 = c1 / 2 + 20;
@@ -10022,20 +10022,20 @@ aClass30_Sub2_Sub1_Sub4_1272.method382(0xffffff, i1, anInt939, "Login", l1 + 5, 
 nearby = true;
 i1 = c / 2 + 80;
 aClass30_Sub2_Sub1_Sub1_967.method348(i1 - 73, 16083, l1 - 20);
-aClass30_Sub2_Sub1_Sub4_1272.method382(0xffffff, i1, anInt939, "Return.", l1 + 5, true);
+aClass30_Sub2_Sub1_Sub4_1272.method382(0xffffff, i1, anInt939, "Return", l1 + 5, true);
 }
 }
 if(anInt833 == 3) {
 aClass30_Sub2_Sub1_Sub4_1272.method382(0xffffff, c / 2, anInt939, "", c1 / 2 - 60, true);
 int k = c1 / 2 - 35;
 
-aClass30_Sub2_Sub1_Sub4_1272.method382(0xffffff, c / 2, anInt939, "Your Client", k, true);
+aClass30_Sub2_Sub1_Sub4_1272.method382(0xffffff, c / 2, anInt939, "CANscape Staff", k, true);
 k += 15;
-aClass30_Sub2_Sub1_Sub4_1272.method382(0xffffff, c / 2, anInt939, "Good luck dude", k, true);
-k += 15;
-aClass30_Sub2_Sub1_Sub4_1272.method382(0xffffff, c / 2, anInt939, "Creater- Wild", k, true);
+aClass30_Sub2_Sub1_Sub4_1272.method382(0xffffff, c / 2, anInt939, "dummy66  Beenus  Mercury", k, true);
 k += 15;
 aClass30_Sub2_Sub1_Sub4_1272.method382(0xffffff, c / 2, anInt939, "", k, true);
+k += 15;
+aClass30_Sub2_Sub1_Sub4_1272.method382(0xffffff, c / 2, anInt939, "*Sound is not supported yet.", k, true);
 k += 15;
 aClass30_Sub2_Sub1_Sub4_1272.method382(0xffffff, c / 2, anInt939, "", k, true);
 k += 15;

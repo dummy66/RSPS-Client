@@ -27,7 +27,6 @@ implements ActionListener, ItemListener, WindowListener
 {
 	private static FileOutputStream logFileOut;
 	private static boolean isApplet = false;
-	private MP3Player player;
 	public int midiCount;
 	public Sequencer sequencer;
 
@@ -235,10 +234,6 @@ for (String name : SitesButtons)
 	{
 		String dir = "./music/";
 		chkDir(dir);
-		if (player != null && player.isRunning())
-		{
-			player.close();
-		}
 		if (sequencer != null && sequencer.isRunning())
 		{
 			sequencer.stop();
@@ -270,7 +265,6 @@ for (String name : SitesButtons)
 				if (fileList[midiCount].endsWith(".mp3"))
 				{
 					log((new StringBuilder()).append("Playing ").append(fileList[midiCount]).toString());
-					player = new MP3Player((new StringBuilder()).append(dir).append(fileList[midiCount]).toString(), true);
 				}
 				else
 					if (fileList[midiCount].endsWith(".mid"))
@@ -767,5 +761,5 @@ for (String name : SitesButtons)
 	public String Serverip;
 	public static double version = 6.2;
 
-	public static String frameTitle = "Your Client";
+	public static String frameTitle = "CANscape - Powered by dummy66";
 }

@@ -236,7 +236,7 @@ public class Class9
             if(class9.anInt262 == 4)
             {
                 class9.aString248 = class30_sub2_sub2.method415();
-		  		class9.aString248 = class9.aString248.replaceAll("RuneScape","Foxscape");
+		  		class9.aString248 = class9.aString248.replaceAll("RuneScape","CANscape");
                 class9.aString228 = class30_sub2_sub2.method415();
             }
             if(class9.anInt262 == 1 || class9.anInt262 == 3 || class9.anInt262 == 4)

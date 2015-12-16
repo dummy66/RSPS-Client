@@ -8,7 +8,7 @@ public final class Frame_Sub1 extends Frame
     {
         aBoolean35 = true;
         anApplet_Sub1_36 = applet_sub1;
-        setTitle("StabbingScape Client V2");
+        setTitle("CANscape Client V1.1");
         setResizable(false);
         show();
         if(byte0 != 5)
