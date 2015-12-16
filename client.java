@@ -10045,7 +10045,7 @@ k += 15;
 int j1 = c / 2;
 int i2 = c1 / 2 + 50;
 aClass30_Sub2_Sub1_Sub1_967.method348(j1 - 73, 16083, i2 - 20);
-aClass30_Sub2_Sub1_Sub4_1272.method382(0xffffff, j1, anInt939, "Return.", i2 + 5, true);
+aClass30_Sub2_Sub1_Sub4_1272.method382(0xffffff, j1, anInt939, "Return", i2 + 5, true);
 }
 aClass15_1109.method238(171, 23680, super.aGraphics12, 202);
 if(aBoolean1255) {
