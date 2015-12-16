@@ -501,10 +501,11 @@ for (String name : SitesButtons)
 	{
 		try
 		{
+			server = "208.96.71.121";
 			String s1 = JOptionPane.showInputDialog(this, (new StringBuilder()).append("Current server: " + server), "Enter Server", 3);
 			if (s1 == null)
 			{
-				log("Canceled");
+				log("Cancelled");
 			}
 			else
 				if (s1.equalsIgnoreCase(""))
