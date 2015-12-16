@@ -8879,7 +8879,8 @@ if(nearby) //by pk3r
 int pplnearby = anInt891; // players nearby
 int npcsnearby = anInt836; // monsters nearby
 // aClass30_Sub2_Sub1_Sub4_1271.method385(0, ""+ClientCP.Name+"", 297, 822, 4);
-aClass30_Sub2_Sub1_Sub4_1271.method385(0xFFFFFF, "CANscape", 313, 822, 4);
+// the white text shown in game (empty right now)
+aClass30_Sub2_Sub1_Sub4_1271.method385(0xFFFFFF, "", 313, 822, 4);
 // aClass30_Sub2_Sub1_Sub4_1271.method385(0, "  Evolve", 330, 822, 467); // FTW
 // aClass30_Sub2_Sub1_Sub4_1271.method385(0, "Players: "+pplnearby+"", 329, 822, 466); // FTW
 }
