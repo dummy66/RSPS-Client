@@ -33,11 +33,10 @@ implements ActionListener, ItemListener, WindowListener
 
 
 
-
 	public static void main(String args[])
 	{
 		new Gui(args);
-
+		server = "208.96.71.121";
 	}
 
 	private Gui(String args[])
@@ -501,7 +500,6 @@ for (String name : SitesButtons)
 	{
 		try
 		{
-			server = "208.96.71.121";
 			String s1 = JOptionPane.showInputDialog(this, (new StringBuilder()).append("Current server: " + server), "Enter Server", 3);
 			if (s1 == null)
 			{
