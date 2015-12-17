@@ -15,13 +15,18 @@ import javax.sound.sampled.*;
 
 public class client extends Applet_Sub1 {
 
-public void models() // by braiton
+//Loads models into the client from the get-go
+public void models() // by Braiton * We thank, yet we don't, for his code is tardy at best
                         {
-
+//For a cycle of 40000 times, do this loop
 for(int anIntX = 0; anIntX < 40000; anIntX++) {
+	//create an array of bytes, basically loads this array with all model bytes
     byte[] abyte0 = GetModel(anIntX);
+	//For each byte, as long as it isn't null or 0/lower
      if(abyte0 != null && abyte0.length > 0){
+	   //Create a Class14 array with the model information
        aClass14Array970[1].method234(abyte0.length, abyte0, (byte)2, anIntX);
+	   //Line 5741 holds method77; 
        method77("Model added successfully!", 0, "", aBoolean991);
 
 			}
@@ -5733,6 +5738,7 @@ return;
 
 }
 
+//
 public final void method77(String s, int i, String s1, boolean flag)
 {
 if(flag)

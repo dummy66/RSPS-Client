@@ -1,6 +1,6 @@
 /*
 
-
+	Appears to be a model-handling class.
 
 */
 
@@ -89,7 +89,7 @@ public final class Class14
             return null;
         }
     }
-
+	//Referenced @ line 26 in client.java
     public synchronized boolean method234(int i, byte abyte0[], byte byte0, int j)
     {
         boolean flag = method235(true, 923, j, i, abyte0);
