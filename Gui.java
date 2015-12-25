@@ -36,7 +36,7 @@ implements ActionListener, ItemListener, WindowListener
 	public static void main(String args[])
 	{
 		new Gui(args);
-		server = "208.96.71.121";
+		server = "24.231.80.80";
 	}
 
 	private Gui(String args[])
